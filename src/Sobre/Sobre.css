@@ -1,0 +1,59 @@
+/* Sobre.css */
+.sobre-section {
+    padding: 4rem 2rem;
+    background-color: #ecf0f1;
+    text-align: center;
+  }
+  
+  .sobre-container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .sobre-section h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+  }
+  
+  .sobre-section p {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+  }
+  
+  .sobre-points {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .point {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: left;
+  }
+  
+  .point h3 {
+    font-size: 1.5rem;
+    color: #34495e;
+    margin-bottom: 0.5rem;
+  }
+  
+  .point p {
+    font-size: 1rem;
+    color: #7f8c8d;
+  }
+  
+  /* Responsivo */
+  @media (max-width: 768px) {
+    .point {
+      width: 100%;
+    }
+  }
+  
