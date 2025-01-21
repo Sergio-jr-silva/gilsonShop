@@ -1,21 +1,24 @@
 import React from 'react';
 import Slider from 'react-slick';
 import './Depoimentos.css';
+import img1 from './imgs/img1.jpg';
+import img2 from './imgs/img2.jpg';
+import img3 from './imgs/img3.webp';
 
 const Depoimentos = () => {
   const depoimentos = [
     {
-      image: 'https://via.placeholder.com/150', // Substitua pelo caminho das imagens reais
+      image: img1, // Substitua pelo caminho das imagens reais
       name: 'Carlos Silva',
       text: 'Excelente serviço! Minhas paredes nunca pareceram tão bonitas e bem cuidadas.',
     },
     {
-      image: 'https://via.placeholder.com/150',
+      image: img2,
       name: 'Maria Oliveira',
       text: 'A equipe foi super profissional e entregou tudo dentro do prazo. Recomendo muito!',
     },
     {
-      image: 'https://via.placeholder.com/150',
+      image: img3,
       name: 'Joana Souza',
       text: 'Adorei o resultado final! Ficou melhor do que eu imaginava.',
     },
