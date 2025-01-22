@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-
+const whatsappNumber = "5581988835006";
 const Footer = () => {
   return (
     <footer className="footer" id='footer'>
@@ -16,8 +16,9 @@ const Footer = () => {
         </div>
         <div className="footer-section">
           <h4>Contatos</h4>
-          <p>Telefone: <a href="tel:+5511999999999">(11) 99999-9999</a></p>
-          <p>Email: <a href="mailto:contato@pinturapro.com">contato@pinturapro.com</a></p>
+          <p>Telefone: <a href={`https://wa.me/${whatsappNumber}?text=Olá Tudo bem,%20gostaria%20de%20Realizar%20um%20orçamento!`}   target="_blank" 
+              rel="noopener noreferrer">81 98883-5006</a></p>
+          <p>Email: <a href="mailto:contato@pinturapro.com">gilsonsoaresdesouza650@gmail.com</a></p>
         </div>
         <div className="footer-section social">
           <h4>Siga-nos</h4>
@@ -29,7 +30,7 @@ const Footer = () => {
               <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram" />
             </a>
             <a 
-              href="https://wa.me/5511999999999?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20os%20serviços!" 
+              href={`https://wa.me/${whatsappNumber}?text=Olá Tudo bem,%20gostaria%20de%20Realizar%20um%20orçamento!`} 
               target="_blank" 
               rel="noopener noreferrer"
             >

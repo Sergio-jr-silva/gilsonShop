@@ -12,13 +12,11 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo" >
-        <a href="#home">GS Pinturas & Serviços</a>
+        <a href="#home"> GS Pinturas & Serviços</a>
       </div>
       <div className={`navbar-links ${isMenuOpen ? 'active' : ''}`}>
         <ul>
           <li><a href="#sobre" onClick={() => setIsMenuOpen(false)}>Sobre Nós</a></li>
-          <li><a href="#services" onClick={() => setIsMenuOpen(false)}>Serviços</a></li>
-          <li><a href="#portfolio" onClick={() => setIsMenuOpen(false)}>Portfólio</a></li>
           <li><a href="#Depoimentos" onClick={() => setIsMenuOpen(false)}>Depoimentos</a></li>
           <li><a href="#areas" onClick={() => setIsMenuOpen(false)}>Área de Atuação</a></li>
           <li><a href="#footer" onClick={() => setIsMenuOpen(false)}>Contatos</a></li>
